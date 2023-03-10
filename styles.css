@@ -139,8 +139,14 @@ html {
             text-decoration: none;
             color: var(--main-white);
         }
-        footer .foot a:hover {
+        footer .foot a.instagram:hover {
             color: var(--pink);
+        }
+        footer .foot a.linkedin {
+            padding: .5rem;
+        }
+        footer .foot a.linkedin:hover {
+            color: #0077b5;
         }
 
 @keyframes floating-cat {
